@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>Mouse Drawing</title>
+</head>
+
+<body>
+    <div id="background">
+        <div id="apiBorder">
+            <div id="space">
+                <h1>View art based on artist</h1>
+                If you want to view art styles related to a specific artist, type their name below and you will be shown 3 artworks by them!<br>
+                <form action="/processAPI" method="post">
+                    <label><b>Enter the name of an artist to view related pieces: </b><br><input type="text" name="query" required/></label><br><br>
+                    <input type="reset" />
+					<input type="submit" value="Submit"/>
+                </form>
+                <br><a href="/">HOME</a>
+            </div>
+		</div>
+	</div>	
+</body>
+
+</html>

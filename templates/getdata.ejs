@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/style.css">
+	<title>Access Data</title>
+</head>
+
+<body>
+	<div id="background">
+        <div id="getDataBorder">
+            <div id="space">
+				<h1>Access People's Favorite Artists</h1>
+				<form action="/result" method="post">
+					<fieldset>
+						Current Number of Entries: <%- numOfEntries %><br><br>
+						<label><b>Enter Person's Full Name </b><input type="text" name="name" required></label><br>
+					</fieldset>
+					<br>
+					<input type="reset" />
+					<input type="submit" value="Submit Request"/>
+				</form>
+				<hr>
+				<a href="/">HOME</a>
+			</div>
+		</div>
+	</div>	
+</body>
+
+</html>

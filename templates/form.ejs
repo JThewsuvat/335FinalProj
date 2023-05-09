@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/style.css">
+	<title>Art Form</title>
+</head>
+
+<body>
+	<div id="background">
+        <div id="border">
+            <div id="space">
+				<h1>Art Form</h1>
+				<form action="/processForm" method="post">
+					<fieldset>   
+						<label><b>Full Name: </b><input type="text" name="name" required/></label>
+						<label><b>Email Address: </b><input type="email" name="email" required></label><br><br>
+						<label><b>Favorite Artist: </b><input type="text" name="art" required/></label>
+					</fieldset>
+					<br>
+					<input type="reset" />
+					<input type="submit" value="Submit Application" onclick="return confirm('Are you sure you want to submit your application?\nYou will not be able to change your information once submitted.')"/>
+				</form>
+				<hr>
+				<a href="/">HOME</a>
+			</div>
+		</div>
+	</div>	
+</body>
+
+</html>
