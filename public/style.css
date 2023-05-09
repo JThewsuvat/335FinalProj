@@ -1,0 +1,49 @@
+html {
+    font-size: 19px;
+}
+
+body {
+    background-image: url("campus.png");
+    background-size: cover;
+}
+
+#outerborder {
+    background-color: white;
+    margin: auto;
+    margin-top: 175px;
+    border: 15px groove brown;
+    width: 425px;
+    height: 300px
+}
+
+#getDataBorder {
+    background-color: white;
+    margin: auto;
+    margin-top: 175px;
+    border: 15px groove brown;
+    width: 800px;
+    height: 300px
+}
+
+#apiBorder {
+    background-color: white;
+    margin: auto;
+    margin-top: 175px;
+    border: 15px groove brown;
+    width: 700px;
+    height: 300px
+}
+
+#border {
+    background-color: white;
+    margin: auto;
+    margin-top: 175px;
+    border: 15px groove brown;
+    width: 800px;
+    height: 300px
+}
+
+#space {
+    margin-left: 15px;
+    margin-right: 10px
+}
