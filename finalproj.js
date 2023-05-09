@@ -9,8 +9,6 @@ const path = require("path");
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-const fs = require('fs');
-const request = require('request');
 require("dotenv").config();
 
 const userName = process.env.MONGO_DB_USERNAME;
